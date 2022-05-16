@@ -1,0 +1,87 @@
+body {
+    font-family: cursive;
+     color: white;
+background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;
+}
+.titulo{
+width: 100%;
+margin-left: 30%;
+}
+.texto_arriba{
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 5em;
+}
+
+.texto_abajo{
+  
+}
+.HH {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.Contenedor_general {
+    display: flex;
+    flex-direction: row;
+    
+    width: 22%;
+    margin-left:2%;
+    margin-right:2%;
+}
+.Contenedor_general img{
+    width:16em;
+}
+.Banner{
+    width: 100%;
+    background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;
+    margin
+}
+
+.Banner_sonic{
+width: 60%;
+margin-left: 40%;
+margin-bottom: 5%;
+margin-top: 2%;
+}
+
+.Banner_pelicula{
+    width: 60%;
+margin-left: 0%;
+margin-bottom: 3%;
+margin-top: 2%;
+}
+
+.grupo {
+    width: 100%;
+   
+}
+
+.Primer_contenedor {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Texto{
+    display: flex;
+    flex-direction:column;
+    margin-top: 5%;
+}
+
+.footer {
+    background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;
+}
+
+.footer a {
+    text-decoration: none;
+}

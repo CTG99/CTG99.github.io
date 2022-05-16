@@ -1,0 +1,106 @@
+body{ font-family: cursive;}
+
+.Contenedor_central{
+	    background: url(./Img/Fondo_Pantera.png) no-repeat;
+    background-size: cover;
+}
+.ccentral{ background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;}
+
+.titulocentro{position: absolute;color: white; }
+.titulocentro1{margin-left: 6%; margin-top: 5%;}
+.titulocentro2{margin-left: 36%; margin-top: 13%;}
+.titulocentro3{margin-left: 67%; margin-top: 5%;}
+
+.botonbuzon{position: absolute; margin-top: 21%;margin-left: 36%;}
+
+a: link;{text-decoration:none;
+	color: white;}
+	a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;}
+
+.contcarrusel{height: 40em; margin-top: 15%;}
+.contcarrusel2{margin-top: 20%;}
+
+.textocarrusel{ background: url(./Img/Fondo_gris.png) no-repeat ;
+    background-size: cover; 
+    color: white;
+    height: 35rem;
+	}
+
+.footer{ background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;}
+.footer a{
+  text-decoration: none ;
+}
+
+.imagencarrusel{height: 13em;}
+
+.carousel-control-prev{height: 3em; position: absoulte; margin-top:13em;}
+.carousel-control-next{height: 3em; position: absoulte; margin-top:13em;}
+
+
+
+
+
+
+.HH {
+  overflow: hidden;
+  background: #231e18;
+  
+  height: 15rem;
+}
+.main-wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  padding: 5vh 0;
+  justify-content: center;
+  z-index: 5;
+}
+
+.w2-frame {
+  overflow: hidden;
+  margin: 3px;
+  padding-bottom: 0;
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 5%;
+}
+.w2-img {
+  z-index: 2;
+  opacity: 0;
+  width: 13em;
+  height: 13em;
+}
+
+p.info {
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  color: white;
+  background: #250D0D;
+  padding: 7px;
+  transition: left .25s ease-in-out;
+  top: -38px;
+  left: -200px;
+}
+.w2-frame:hover>p.info {
+  left: 0;
+}
+

@@ -1,0 +1,132 @@
+body {
+    font-family: cursive;
+    background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+img:hover {
+    visibility: collapse;
+}
+
+
+.Hovers {
+    Position: absolute;
+}
+
+
+
+.Preguntas {
+    display: flex;
+    flex-direction: column;
+}
+
+.Aside {
+    height: 70em;
+
+    margin-right: 4%;
+}
+
+.Cont_palmera {
+    background-color: yellow;
+    background-size: cover;
+}
+
+.Palmera {
+    height: 70em;
+    width: 19.7em;
+}
+
+.Cont_rio {
+    background-color: red;
+    background-size: cover;
+}
+
+.Rio {
+    height: 17em;
+    width: 28.8em;
+}
+
+.Cont_valle {
+    background-color: green;
+    background-size: cover;
+}
+
+.Valle {
+    height: 16.97em;
+    width: 28.6em;
+}
+
+.Cont_estanteria {
+    background-color: orange;
+    background-size: cover;
+}
+
+.Estanteria {
+    height: 11em;
+    width: 57em;
+}
+
+.Cont_geiser {
+    background-color: blue;
+    background-size: cover;
+
+}
+
+.Geiser {
+    height: 23em;
+    width: 15em;
+}
+
+.Cont_loro {
+    background-color: pink;
+    background-size: cover;
+}
+
+.Loro {
+    height: 23em;
+    width: 42.8em;
+}
+
+.Cont_planta {
+    background-color: purple;
+    background-size: cover;
+}
+
+.Cont_engranajes {
+    background-color: brown;
+    background-size: cover;
+}
+
+.Contenedor_general {
+    display: flex;
+    flex-direction: row;
+}
+
+.p {
+    color: black;
+}
+
+.Titulo {
+    height: 15em;
+    margin-left: 33%;
+    color: white;
+}
+
+.Aptitudes {
+    font-size: 5em;
+}
+
+.texto_abajo {
+    margin-left: 5%;
+}
+
+
+.footer {
+    background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;
+}
+
+.footer a {
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+body{
+ font-family: cursive;
+background: url(./Img/Fondo_Formulario.png) no-repeat;
+    background-size: cover;
+}
+.Botone{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top:1%;
+	
+}
+
+
+
+
+.Formulario_contenedor{
+	width: 18%;
+	position: absolute;
+	margin-left:36%;
+	margin-top: 5%;
+	
+}
+.Formulario{
+	display: column;
+	padding: 2%;
+	background: url(./Img/Fondo_blanco.png) no-repeat;
+    background-size: cover;
+}
+.Peticion{
+	height: 20em;
+	margin-top: 5%;
+}
+.Peticion placeholder{
+	position: absolute;
+}
+
+.footer{ background: url(./Img/Fondo_negro.png) no-repeat;
+    background-size: cover;
+margin-top: 39%;}
+.footer a{
+  text-decoration: none ;
+}
+
